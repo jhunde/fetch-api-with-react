@@ -9,7 +9,6 @@ function App() {
 
   return (
     <>
-      <h1>Random Jokes</h1>
       <Joke/>
     </>
   )
