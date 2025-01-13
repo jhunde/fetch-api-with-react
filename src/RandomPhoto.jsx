@@ -9,7 +9,7 @@ function RandomPhoto() {
     try {
       const response = await fetch("https://api.unsplash.com/photos/random", {
         headers: {
-          Authorization: `Client-ID ${process.env.REACT_APP_UNSPLASH_KEY}`,
+          Authorization: `Client-ID ${import.meta.env.VITE_UNSPLASH_KEY}`,
         },
       });
 
